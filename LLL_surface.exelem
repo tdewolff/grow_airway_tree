@@ -1,0 +1,1371 @@
+ Group name: surface
+ Shape.  Dimension=1
+ Element: 0 0     1
+ Element: 0 0     2
+ Element: 0 0     3
+ Element: 0 0     4
+ Element: 0 0     5
+ Element: 0 0     6
+ Element: 0 0     7
+ Element: 0 0     8
+ Element: 0 0     9
+ Element: 0 0    10
+ Element: 0 0    11
+ Element: 0 0    12
+ Element: 0 0    13
+ Element: 0 0    14
+ Element: 0 0    15
+ Element: 0 0    16
+ Element: 0 0    17
+ Element: 0 0    18
+ Element: 0 0    19
+ Element: 0 0    20
+ Element: 0 0    21
+ Element: 0 0    22
+ Element: 0 0    23
+ Element: 0 0    24
+ Element: 0 0    25
+ Element: 0 0    26
+ Element: 0 0    27
+ Element: 0 0    28
+ Element: 0 0    29
+ Element: 0 0    30
+ Element: 0 0    31
+ Element: 0 0    32
+ Element: 0 0    33
+ Element: 0 0    34
+ Element: 0 0    35
+ Element: 0 0    36
+ Element: 0 0    37
+ Element: 0 0    38
+ Element: 0 0    39
+ Element: 0 0    40
+ Element: 0 0    41
+ Element: 0 0    42
+ Element: 0 0    43
+ Element: 0 0    44
+ Element: 0 0    45
+ Element: 0 0    46
+ Element: 0 0    47
+ Element: 0 0    48
+ Shape.  Dimension=2
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+ Element:            1 0 0
+   Faces: 
+     0 0     1
+     0 0     3
+     0 0     2
+     0 0     4
+   Nodes:
+               52           53           67           67
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+ Element:            2 0 0
+   Faces: 
+     0 0     3
+     0 0     6
+     0 0     5
+     0 0     7
+   Nodes:
+               53           54           67           68
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+ Element:            3 0 0
+   Faces: 
+     0 0     6
+     0 0     9
+     0 0     8
+     0 0    10
+   Nodes:
+               54           56           68           70
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+ Element:            4 0 0
+   Faces: 
+     0 0    11
+     0 0    13
+     0 0    12
+     0 0    14
+   Nodes:
+               61           62           73           73
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+ Element:            5 0 0
+   Faces: 
+     0 0    13
+     0 0    16
+     0 0    15
+     0 0    17
+   Nodes:
+               62           63           73           74
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+ Element:            6 0 0
+   Faces: 
+     0 0    16
+     0 0    19
+     0 0    18
+     0 0     8
+   Nodes:
+               63           56           74           70
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+ Element:            7 0 0
+   Faces: 
+     0 0    20
+     0 0    21
+     0 0     7
+     0 0    22
+   Nodes:
+               67           68           78           78
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+ Element:            8 0 0
+   Faces: 
+     0 0    21
+     0 0    23
+     0 0    10
+     0 0    24
+   Nodes:
+               68           70           78           80
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:  13  14  15  16
+ Element:            9 0 0
+   Faces: 
+     0 0    25
+     0 0    26
+     0 0    17
+     0 0    27
+   Nodes:
+               73           74           84           84
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+ Element:           10 0 0
+   Faces: 
+     0 0    26
+     0 0    28
+     0 0     0
+     0 0    10
+   Nodes:
+               74           70           84           80
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+ Element:           11 0 0
+   Faces: 
+     0 0    29
+     0 0    30
+     0 0     2
+     0 0    31
+   Nodes:
+               52           53           57           58
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+ Element:           12 0 0
+   Faces: 
+     0 0    30
+     0 0    32
+     0 0     5
+     0 0    33
+   Nodes:
+               53           54           58           59
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+ Element:           13 0 0
+   Faces: 
+     0 0    32
+     0 0    34
+     0 0     8
+     0 0    35
+   Nodes:
+               54           56           59           56
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+ Element:           14 0 0
+   Faces: 
+     0 0    36
+     0 0    29
+     0 0    12
+     0 0    37
+   Nodes:
+               61           62           57           58
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+ Element:           15 0 0
+   Faces: 
+     0 0    29
+     0 0    30
+     0 0    15
+     0 0    38
+   Nodes:
+               62           63           58           59
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+ Element:           16 0 0
+   Faces: 
+     0 0    30
+     0 0    32
+     0 0    18
+     0 0    39
+   Nodes:
+               63           56           59           56
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         21  22  23  24
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         21  22  23  24
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         21  22  23  24
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+ Element:           17 0 0
+   Faces: 
+     0 0    30
+     0 0    40
+     0 0     1
+     0 0    41
+   Nodes:
+               52           67           57           71
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:  13  14  15  16
+ Element:           18 0 0
+   Faces: 
+     0 0    40
+     0 0    42
+     0 0    20
+     0 0    43
+   Nodes:
+               67           78           71           81
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         21  22  23  24
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         21  22  23  24
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         21  22  23  24
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+ Element:           19 0 0
+   Faces: 
+     0 0    29
+     0 0    30
+     0 0    11
+     0 0    44
+   Nodes:
+               61           73           57           71
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:  13  14  15  16
+ Element:           20 0 0
+   Faces: 
+     0 0    30
+     0 0    40
+     0 0    25
+     0 0    45
+   Nodes:
+               73           84           71           81
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:          9  10  11  12
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          1   2   3   4
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+ Element:           21 0 0
+   Faces: 
+     0 0    42
+     0 0    46
+     0 0    24
+     0 0    47
+   Nodes:
+               78           80           81           80
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+ #Scale factor sets=1
+   c.Hermite*c.Hermite, #Scale factors=16
+ #Nodes=  4
+ #Fields= 1
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+   y.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+   z.  c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 4
+      1.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:   1   2   3   4
+      2.  #Values=4
+       Value indices:         13  14  15  16
+       Scale factor indices:   5   6   7   8
+      3.  #Values=4
+       Value indices:          5   6   7   8
+       Scale factor indices:   9  10  11  12
+      4.  #Values=4
+       Value indices:         17  18  19  20
+       Scale factor indices:  13  14  15  16
+ Element:           22 0 0
+   Faces: 
+     0 0    40
+     0 0    42
+     0 0     0
+     0 0    48
+   Nodes:
+               84           80           81           80
+   Scale factors:
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
+      0.10000E+01  0.10000E+01  0.10000E+01  0.10000E+01
