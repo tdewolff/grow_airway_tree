@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>LungModelWidget</class>
- <widget class="QWidget" name="LungModelWidget">
+ <class>View</class>
+ <widget class="QWidget" name="View">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -9,6 +9,11 @@
     <width>1024</width>
     <height>742</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Grow airway tree</string>

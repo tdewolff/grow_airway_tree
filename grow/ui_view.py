@@ -1,21 +1,24 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file './grow/qt/lungmodelwidget.ui'
+# Form implementation generated from reading ui file './qt/view.ui'
 #
-# Created: Fri Jan  4 13:02:48 2019
+# Created: Fri Jan  4 16:38:31 2019
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
 
 from PySide import QtCore, QtGui
 
-class Ui_LungModelWidget(object):
-    def setupUi(self, LungModelWidget):
-        LungModelWidget.setObjectName("LungModelWidget")
-        LungModelWidget.resize(1024, 742)
-        self.horizontalLayout = QtGui.QHBoxLayout(LungModelWidget)
+class Ui_View(object):
+    def setupUi(self, View):
+        View.setObjectName("View")
+        View.resize(1024, 742)
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        View.setFont(font)
+        self.horizontalLayout = QtGui.QHBoxLayout(View)
         self.horizontalLayout.setObjectName("horizontalLayout")
-        self.controlPanel_widget = QtGui.QWidget(LungModelWidget)
+        self.controlPanel_widget = QtGui.QWidget(View)
         self.controlPanel_widget.setMinimumSize(QtCore.QSize(270, 0))
         self.controlPanel_widget.setObjectName("controlPanel_widget")
         self.verticalLayout = QtGui.QVBoxLayout(self.controlPanel_widget)
@@ -190,7 +193,7 @@ class Ui_LungModelWidget(object):
         self.gridLayout_2.addWidget(self.generate_pushButton, 2, 0, 1, 2)
         self.verticalLayout.addWidget(self.groupBox)
         self.horizontalLayout.addWidget(self.controlPanel_widget)
-        self.sceneviewer_widget = SceneviewerWidget(LungModelWidget)
+        self.sceneviewer_widget = SceneviewerWidget(View)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(1)
         sizePolicy.setVerticalStretch(0)
@@ -199,39 +202,39 @@ class Ui_LungModelWidget(object):
         self.sceneviewer_widget.setObjectName("sceneviewer_widget")
         self.horizontalLayout.addWidget(self.sceneviewer_widget)
 
-        self.retranslateUi(LungModelWidget)
-        QtCore.QMetaObject.connectSlotsByName(LungModelWidget)
+        self.retranslateUi(View)
+        QtCore.QMetaObject.connectSlotsByName(View)
 
-    def retranslateUi(self, LungModelWidget):
-        LungModelWidget.setWindowTitle(QtGui.QApplication.translate("LungModelWidget", "Grow airway tree", None, QtGui.QApplication.UnicodeUTF8))
-        self.leftLung_groupBox.setTitle(QtGui.QApplication.translate("LungModelWidget", "Airway tree input", None, QtGui.QApplication.UnicodeUTF8))
-        self.airwayIpnode_pushButton.setText(QtGui.QApplication.translate("LungModelWidget", ".ipnode", None, QtGui.QApplication.UnicodeUTF8))
-        self.airwayIpelem_pushButton.setText(QtGui.QApplication.translate("LungModelWidget", ".ipelem", None, QtGui.QApplication.UnicodeUTF8))
-        self.rightLung_groupBox.setTitle(QtGui.QApplication.translate("LungModelWidget", "Surface input", None, QtGui.QApplication.UnicodeUTF8))
-        self.surfaceIpnode_pushButton.setText(QtGui.QApplication.translate("LungModelWidget", ".ipnode", None, QtGui.QApplication.UnicodeUTF8))
-        self.surfaceIpelem_pushButton.setText(QtGui.QApplication.translate("LungModelWidget", ".ipelem", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox_2.setTitle(QtGui.QApplication.translate("LungModelWidget", "Parameters", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_4.setText(QtGui.QApplication.translate("LungModelWidget", "Angle min:", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("LungModelWidget", "Grid size:", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_2.setText(QtGui.QApplication.translate("LungModelWidget", "Start node:", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_7.setText(QtGui.QApplication.translate("LungModelWidget", "Shortest length:", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_3.setText(QtGui.QApplication.translate("LungModelWidget", "Angle max:", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_5.setText(QtGui.QApplication.translate("LungModelWidget", "Branch fraction:", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_6.setText(QtGui.QApplication.translate("LungModelWidget", "Length limit:", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_8.setText(QtGui.QApplication.translate("LungModelWidget", "Rotation limit:", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox.setTitle(QtGui.QApplication.translate("LungModelWidget", "Output", None, QtGui.QApplication.UnicodeUTF8))
-        self.outputExnode_pushButton.setText(QtGui.QApplication.translate("LungModelWidget", ".exnode", None, QtGui.QApplication.UnicodeUTF8))
-        self.outputExelem_pushButton.setText(QtGui.QApplication.translate("LungModelWidget", ".exelem", None, QtGui.QApplication.UnicodeUTF8))
-        self.generate_pushButton.setText(QtGui.QApplication.translate("LungModelWidget", "Generate", None, QtGui.QApplication.UnicodeUTF8))
+    def retranslateUi(self, View):
+        View.setWindowTitle(QtGui.QApplication.translate("View", "Grow airway tree", None, QtGui.QApplication.UnicodeUTF8))
+        self.leftLung_groupBox.setTitle(QtGui.QApplication.translate("View", "Airway tree input", None, QtGui.QApplication.UnicodeUTF8))
+        self.airwayIpnode_pushButton.setText(QtGui.QApplication.translate("View", ".ipnode", None, QtGui.QApplication.UnicodeUTF8))
+        self.airwayIpelem_pushButton.setText(QtGui.QApplication.translate("View", ".ipelem", None, QtGui.QApplication.UnicodeUTF8))
+        self.rightLung_groupBox.setTitle(QtGui.QApplication.translate("View", "Surface input", None, QtGui.QApplication.UnicodeUTF8))
+        self.surfaceIpnode_pushButton.setText(QtGui.QApplication.translate("View", ".ipnode", None, QtGui.QApplication.UnicodeUTF8))
+        self.surfaceIpelem_pushButton.setText(QtGui.QApplication.translate("View", ".ipelem", None, QtGui.QApplication.UnicodeUTF8))
+        self.groupBox_2.setTitle(QtGui.QApplication.translate("View", "Parameters", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_4.setText(QtGui.QApplication.translate("View", "Angle min:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("View", "Grid size:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_2.setText(QtGui.QApplication.translate("View", "Start node:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_7.setText(QtGui.QApplication.translate("View", "Shortest length:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_3.setText(QtGui.QApplication.translate("View", "Angle max:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_5.setText(QtGui.QApplication.translate("View", "Branch fraction:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_6.setText(QtGui.QApplication.translate("View", "Length limit:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_8.setText(QtGui.QApplication.translate("View", "Rotation limit:", None, QtGui.QApplication.UnicodeUTF8))
+        self.groupBox.setTitle(QtGui.QApplication.translate("View", "Output", None, QtGui.QApplication.UnicodeUTF8))
+        self.outputExnode_pushButton.setText(QtGui.QApplication.translate("View", ".exnode", None, QtGui.QApplication.UnicodeUTF8))
+        self.outputExelem_pushButton.setText(QtGui.QApplication.translate("View", ".exelem", None, QtGui.QApplication.UnicodeUTF8))
+        self.generate_pushButton.setText(QtGui.QApplication.translate("View", "Generate", None, QtGui.QApplication.UnicodeUTF8))
 
 from opencmiss.zincwidgets.sceneviewerwidget import SceneviewerWidget
 
 if __name__ == "__main__":
     import sys
     app = QtGui.QApplication(sys.argv)
-    LungModelWidget = QtGui.QWidget()
-    ui = Ui_LungModelWidget()
-    ui.setupUi(LungModelWidget)
-    LungModelWidget.show()
+    View = QtGui.QWidget()
+    ui = Ui_View()
+    ui.setupUi(View)
+    View.show()
     sys.exit(app.exec_())
 

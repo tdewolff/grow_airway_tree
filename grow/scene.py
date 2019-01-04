@@ -1,22 +1,21 @@
 from opencmiss.zinc.context import Context
 from opencmiss.zinc.material import Material
 
-from .meshmodel import MeshModel
+from .model import Model
 
-
-class LungModel(object):
+class Scene(object):
 
     def __init__(self):
-        self._context = Context("LungModelView")
+        self._context = Context("Scene")
         self._logger = self._context.getLogger()
         self._initialize()
 
     def getContext(self):
         return self._context
 
-    def getMeshModel(self, name):
+    def newModel(self, name):
         region = self._context.getDefaultRegion().createChild(name)
-        return MeshModel(region, self._materialModule)
+        return Model(region, self._materialModule)
 
     def _initialize(self):
         tess = self._context.getTessellationmodule().getDefaultTessellation()

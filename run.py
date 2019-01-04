@@ -1,25 +1,15 @@
-import warnings
-warnings.filterwarnings("ignore", message="numpy.dtype size changed")
-warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
-
 import sys
 import os
 from PySide import QtGui
-from grow.view.lungmodelwidget import LungModelWidget
-from grow.model.lungmodel import LungModel
+from grow.view import View
+from grow.scene import Scene
 
 from aether.diagnostics import set_diagnostics_on
 from aether.indices import define_problem_type
-from aether.geometry import define_node_geometry_2d, define_elem_geometry_2d, make_data_grid, evaluate_ordering, \
-    define_data_geometry, define_node_geometry, define_1d_elements, group_elem_parent_term
-from aether.exports import export_node_geometry_2d, export_elem_geometry_2d, export_data_geometry, export_node_geometry, \
-    export_1d_elem_geometry
+from aether.geometry import *
+from aether.exports import *
 from aether.growtree import grow_tree
 
-app = QtGui.QApplication(sys.argv)
-model = LungModel()
-airwayModel = model.getMeshModel('airway')
-surfaceModel = model.getMeshModel('surface')
 
 set_diagnostics_on(False)
 define_problem_type('grow_tree')
@@ -57,7 +47,13 @@ def generate(options, exnode, exelem):
     
     airwayModel.load(exnode, exelem)
 
-view = LungModelWidget(model)
+
+app = QtGui.QApplication(sys.argv)
+scene = Scene()
+airwayModel = scene.newModel('airway')
+surfaceModel = scene.newModel('surface')
+
+view = View(scene)
 view.airwayCallback(loadAirway)
 view.surfaceCallback(loadSurface)
 view.generateCallback(generate)
@@ -65,6 +61,7 @@ view.setAirways('airway_tree_FRC.ipnode', 'airway_tree_FRC.ipelem')
 view.setOutputs('out.exnode', 'out.exelem')
 view.show()
 sys.exit(app.exec_())
+
 
 # Print errors
 num = model._logger.getNumberOfMessages()

@@ -3,11 +3,8 @@ import os
 from scaffoldmaker.utils.zinc_utils import *
 
 from opencmiss.zinc.graphics import Graphics
-from opencmiss.zinc.field import Field
-from opencmiss.utils.maths import vectorops
-from opencmiss.zinc.status import OK as ZINC_OK
 
-class MeshModel(object):
+class Model(object):
 
     def __init__(self, region, materialModule):
         self._region = region
@@ -33,7 +30,6 @@ class MeshModel(object):
         scene.beginChange()
         self._createLineGraphics(scene, self._coordinates, 'displayLinesLeft', 'white')
         self._surface = self._createSurfaceGraphics(scene, self._coordinates, 'displaySurfacesLeft', 'transBlue')
-
         scene.endChange()
 
     def _createLineGraphics(self, scene, coordinates, name, color):

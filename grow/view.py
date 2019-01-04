@@ -1,10 +1,10 @@
 from PySide import QtGui
-from .ui_lungmodelwidget import Ui_LungModelWidget
+from .ui_view import Ui_View
 import os
 
-class LungModelWidget(QtGui.QWidget):
-    def __init__(self, model, parent=None):
-        super(LungModelWidget, self).__init__(parent)
+class View(QtGui.QWidget):
+    def __init__(self, scene, parent=None):
+        super(View, self).__init__(parent)
         self._airwayFilenames = ['', '']
         self._surfaceFilenames = ['', '']
         self._outputFilenames = ['', '']
@@ -12,10 +12,10 @@ class LungModelWidget(QtGui.QWidget):
         self._surfaceCallback = None
         self._generateCallback = None
 
-        self._ui = Ui_LungModelWidget()
+        self._ui = Ui_View()
         self._ui.setupUi(self)
 
-        self._ui.sceneviewer_widget.setContext(model.getContext())
+        self._ui.sceneviewer_widget.setContext(scene.getContext())
         self._makeConnections()
 
     def airwayCallback(self, cb):
