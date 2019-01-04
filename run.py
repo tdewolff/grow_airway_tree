@@ -36,7 +36,13 @@ def loadSurface(ipnode, ipelem):
 
     surfaceModel.load(node+'.exnode', elem+'.exelem')
 
-def generate(options, exnode, exelem):
+def generate(airwayIpnode, airwayIpelem, surfaceIpnode, surfaceIpelem, options, exnode, exelem):
+    define_node_geometry(airwayIpnode)
+    define_1d_elements(airwayIpelem)
+
+    define_node_geometry_2d(surfaceIpnode)
+    define_elem_geometry_2d(surfaceIpelem, 'unit')
+
     make_data_grid(0, options["gridSize"], False, 'test', 'test')
     evaluate_ordering()
     group_elem_parent_term(options["startNode"])

@@ -1,4 +1,4 @@
-from PySide import QtGui
+from PySide import QtGui, QtCore
 from .ui_view import Ui_View
 import os
 
@@ -127,4 +127,6 @@ class View(QtGui.QWidget):
         }
 
         if self._generateCallback:
-            self._generateCallback(options, self._outputFilenames[0], self._outputFilenames[1])
+            QtGui.QApplication.setOverrideCursor(QtCore.Qt.WaitCursor)
+            self._generateCallback(self._airwayFilenames[0], self._airwayFilenames[1], self._surfaceFilenames[0], self._surfaceFilenames[1], options, self._outputFilenames[0], self._outputFilenames[1])
+            QtGui.QApplication.restoreOverrideCursor()

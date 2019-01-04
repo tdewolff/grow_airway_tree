@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file './qt/view.ui'
+# Form implementation generated from reading ui file 'grow/qt/view.ui'
 #
-# Created: Fri Jan  4 16:38:31 2019
+# Created: Fri Jan  4 16:57:07 2019
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -135,24 +135,28 @@ class Ui_View(object):
         self.branchFraction_doubleSpinBox = QtGui.QDoubleSpinBox(self.groupBox_2)
         self.branchFraction_doubleSpinBox.setDecimals(1)
         self.branchFraction_doubleSpinBox.setMaximum(1.0)
+        self.branchFraction_doubleSpinBox.setSingleStep(0.1)
         self.branchFraction_doubleSpinBox.setProperty("value", 0.4)
         self.branchFraction_doubleSpinBox.setObjectName("branchFraction_doubleSpinBox")
         self.gridLayout.addWidget(self.branchFraction_doubleSpinBox, 4, 1, 1, 1)
         self.lengthLimit_doubleSpinBox = QtGui.QDoubleSpinBox(self.groupBox_2)
         self.lengthLimit_doubleSpinBox.setDecimals(1)
         self.lengthLimit_doubleSpinBox.setMaximum(10.0)
+        self.lengthLimit_doubleSpinBox.setSingleStep(0.1)
         self.lengthLimit_doubleSpinBox.setProperty("value", 1.5)
         self.lengthLimit_doubleSpinBox.setObjectName("lengthLimit_doubleSpinBox")
         self.gridLayout.addWidget(self.lengthLimit_doubleSpinBox, 5, 1, 1, 1)
         self.shortestLength_doubleSpinBox = QtGui.QDoubleSpinBox(self.groupBox_2)
         self.shortestLength_doubleSpinBox.setDecimals(1)
         self.shortestLength_doubleSpinBox.setMaximum(10.0)
+        self.shortestLength_doubleSpinBox.setSingleStep(0.1)
         self.shortestLength_doubleSpinBox.setProperty("value", 1.5)
         self.shortestLength_doubleSpinBox.setObjectName("shortestLength_doubleSpinBox")
         self.gridLayout.addWidget(self.shortestLength_doubleSpinBox, 6, 1, 1, 1)
         self.rotationLimit_doubleSpinBox = QtGui.QDoubleSpinBox(self.groupBox_2)
         self.rotationLimit_doubleSpinBox.setDecimals(1)
         self.rotationLimit_doubleSpinBox.setMaximum(360.0)
+        self.rotationLimit_doubleSpinBox.setSingleStep(10.0)
         self.rotationLimit_doubleSpinBox.setProperty("value", 180.0)
         self.rotationLimit_doubleSpinBox.setObjectName("rotationLimit_doubleSpinBox")
         self.gridLayout.addWidget(self.rotationLimit_doubleSpinBox, 7, 1, 1, 1)
