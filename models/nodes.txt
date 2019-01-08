@@ -1,0 +1,5 @@
+RLL: 23
+RML: 24
+RUL: 15
+LUL: 11
+LLL: 12

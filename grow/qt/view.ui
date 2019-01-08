@@ -29,7 +29,7 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QGroupBox" name="leftLung_groupBox">
+       <widget class="QGroupBox" name="groupBox_3">
         <property name="title">
          <string>Airway tree input</string>
         </property>
@@ -69,11 +69,18 @@
            </property>
           </widget>
          </item>
+         <item row="2" column="0" colspan="2">
+          <widget class="QPushButton" name="loadAirway_pushButton">
+           <property name="text">
+            <string>Load</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>
       <item>
-       <widget class="QGroupBox" name="rightLung_groupBox">
+       <widget class="QGroupBox" name="groupBox_4">
         <property name="title">
          <string>Surface input</string>
         </property>
@@ -107,6 +114,13 @@
           <widget class="QPushButton" name="surfaceIpelem_pushButton">
            <property name="text">
             <string>.ipelem</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0" colspan="2">
+          <widget class="QPushButton" name="loadSurface_pushButton">
+           <property name="text">
+            <string>Load</string>
            </property>
           </widget>
          </item>

@@ -37,11 +37,11 @@ def loadSurface(ipnode, ipelem):
     surfaceModel.load(node+'.exnode', elem+'.exelem')
 
 def generate(airwayIpnode, airwayIpelem, surfaceIpnode, surfaceIpelem, options, exnode, exelem):
-    define_node_geometry(airwayIpnode)
-    define_1d_elements(airwayIpelem)
+    #define_node_geometry(airwayIpnode)
+    #define_1d_elements(airwayIpelem)
 
-    define_node_geometry_2d(surfaceIpnode)
-    define_elem_geometry_2d(surfaceIpelem, 'unit')
+    #define_node_geometry_2d(surfaceIpnode)
+    #define_elem_geometry_2d(surfaceIpelem, 'unit')
 
     make_data_grid(0, options["gridSize"], False, 'test', 'test')
     evaluate_ordering()
@@ -49,7 +49,9 @@ def generate(airwayIpnode, airwayIpelem, surfaceIpnode, surfaceIpelem, options, 
     grow_tree(options["startNode"], 1, options["angleMax"], options["angleMin"], options["branchFraction"], options["lengthLimit"], options["shortestLength"], options["rotationLimit"])
 
     export_node_geometry(exnode, 'out')
+    export_node_geometry(exnode + '.ipnode', 'out')
     export_1d_elem_geometry(exelem, 'out')
+    export_1d_elem_geometry(exelem + '.ipelem', 'out')
     
     airwayModel.load(exnode, exelem)
 

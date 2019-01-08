@@ -1,0 +1,389 @@
+ CMISS Version 2.1  ipelem File Version 2
+ Heading: 23..38,55..62
+ 
+ The number of elements is [1]: 24
+
+ Element number [    1]: 23 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   29 30 40 41
+ The version number for occurrence  1 of node    29, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    29, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    29, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    30, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    30, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    30, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    40, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    40, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    40, njj=3 is [ 1]:  1
+
+ Element number [    1]: 24 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   30 31 41 42
+ The version number for occurrence  1 of node    30, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    30, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    30, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    31, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    31, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    31, njj=3 is [ 1]:  2
+
+ Element number [    1]: 25 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   31 32 42 43
+ The version number for occurrence  1 of node    31, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    31, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    31, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    32, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    32, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    32, njj=3 is [ 1]:  1
+
+ Element number [    1]: 26 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   32 33 43 44
+ The version number for occurrence  1 of node    32, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    32, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    32, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    33, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    33, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    33, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    44, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    44, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    44, njj=3 is [ 1]:  1
+
+ Element number [    1]: 27 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   29 37 40 45
+ The version number for occurrence  1 of node    29, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    29, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    29, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    37, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    37, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    37, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    40, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    40, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    40, njj=3 is [ 1]:  2
+
+ Element number [    1]: 28 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   37 38 45 46
+ The version number for occurrence  1 of node    37, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    37, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    37, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    38, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    38, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    38, njj=3 is [ 1]:  2
+
+ Element number [    1]: 29 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   38 39 46 47
+ The version number for occurrence  1 of node    38, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    38, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    38, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    39, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    39, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    39, njj=3 is [ 1]:  1
+
+ Element number [    1]: 30 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   39 33 47 44
+ The version number for occurrence  1 of node    39, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    39, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    39, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    33, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    33, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    33, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    44, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    44, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    44, njj=3 is [ 1]:  2
+
+ Element number [    1]: 31 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   40 41 48 48
+ The version number for occurrence  1 of node    40, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    40, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    40, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    48, njj=1 is [ 1]:  5
+ The version number for occurrence  1 of node    48, njj=2 is [ 1]:  5
+ The version number for occurrence  1 of node    48, njj=3 is [ 1]:  5
+ The version number for occurrence  2 of node    48, njj=1 is [ 1]:  3
+ The version number for occurrence  2 of node    48, njj=2 is [ 1]:  3
+ The version number for occurrence  2 of node    48, njj=3 is [ 1]:  3
+
+ Element number [    1]: 32 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   41 42 48 49
+ The version number for occurrence  1 of node    48, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    48, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    48, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    49, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    49, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    49, njj=3 is [ 1]:  1
+
+ Element number [    1]: 33 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   42 43 49 50
+ The version number for occurrence  1 of node    49, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    49, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    49, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    50, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    50, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    50, njj=3 is [ 1]:  1
+
+ Element number [    1]: 34 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   43 44 50 50
+ The version number for occurrence  1 of node    44, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    44, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    44, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    50, njj=1 is [ 1]:  3
+ The version number for occurrence  1 of node    50, njj=2 is [ 1]:  3
+ The version number for occurrence  1 of node    50, njj=3 is [ 1]:  3
+ The version number for occurrence  2 of node    50, njj=1 is [ 1]:  5
+ The version number for occurrence  2 of node    50, njj=2 is [ 1]:  5
+ The version number for occurrence  2 of node    50, njj=3 is [ 1]:  5
+
+ Element number [    1]: 35 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   40 45 48 48
+ The version number for occurrence  1 of node    40, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    40, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    40, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    48, njj=1 is [ 1]:  5
+ The version number for occurrence  1 of node    48, njj=2 is [ 1]:  5
+ The version number for occurrence  1 of node    48, njj=3 is [ 1]:  5
+ The version number for occurrence  2 of node    48, njj=1 is [ 1]:  4
+ The version number for occurrence  2 of node    48, njj=2 is [ 1]:  4
+ The version number for occurrence  2 of node    48, njj=3 is [ 1]:  4
+
+ Element number [    1]: 36 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   45 46 48 49
+ The version number for occurrence  1 of node    48, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    48, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    48, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    49, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    49, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    49, njj=3 is [ 1]:  2
+
+ Element number [    1]: 37 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   46 47 49 50
+ The version number for occurrence  1 of node    49, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    49, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    49, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    50, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    50, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    50, njj=3 is [ 1]:  2
+
+ Element number [    1]: 38 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   47 44 50 50
+ The version number for occurrence  1 of node    44, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    44, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    44, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    50, njj=1 is [ 1]:  4
+ The version number for occurrence  1 of node    50, njj=2 is [ 1]:  4
+ The version number for occurrence  1 of node    50, njj=3 is [ 1]:  4
+ The version number for occurrence  2 of node    50, njj=1 is [ 1]:  5
+ The version number for occurrence  2 of node    50, njj=2 is [ 1]:  5
+ The version number for occurrence  2 of node    50, njj=3 is [ 1]:  5
+
+ Element number [    1]: 55 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   29 30 29 34
+ The version number for occurrence  1 of node    29, njj=1 is [ 1]:  3
+ The version number for occurrence  1 of node    29, njj=2 is [ 1]:  3
+ The version number for occurrence  1 of node    29, njj=3 is [ 1]:  3
+ The version number for occurrence  1 of node    30, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    30, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    30, njj=3 is [ 1]:  2
+ The version number for occurrence  2 of node    29, njj=1 is [ 1]:  5
+ The version number for occurrence  2 of node    29, njj=2 is [ 1]:  5
+ The version number for occurrence  2 of node    29, njj=3 is [ 1]:  5
+ The version number for occurrence  1 of node    34, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    34, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    34, njj=3 is [ 1]:  1
+
+ Element number [    1]: 56 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   30 31 34 35
+ The version number for occurrence  1 of node    30, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    30, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    30, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    31, njj=1 is [ 1]:  6
+ The version number for occurrence  1 of node    31, njj=2 is [ 1]:  6
+ The version number for occurrence  1 of node    31, njj=3 is [ 1]:  6
+ The version number for occurrence  1 of node    34, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    34, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    34, njj=3 is [ 1]:  1
+ The version number for occurrence  1 of node    35, njj=1 is [ 1]:  3
+ The version number for occurrence  1 of node    35, njj=2 is [ 1]:  3
+ The version number for occurrence  1 of node    35, njj=3 is [ 1]:  3
+
+ Element number [    1]: 57 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   29 37 29 34
+ The version number for occurrence  1 of node    29, njj=1 is [ 1]:  4
+ The version number for occurrence  1 of node    29, njj=2 is [ 1]:  4
+ The version number for occurrence  1 of node    29, njj=3 is [ 1]:  4
+ The version number for occurrence  1 of node    37, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    37, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    37, njj=3 is [ 1]:  2
+ The version number for occurrence  2 of node    29, njj=1 is [ 1]:  5
+ The version number for occurrence  2 of node    29, njj=2 is [ 1]:  5
+ The version number for occurrence  2 of node    29, njj=3 is [ 1]:  5
+ The version number for occurrence  1 of node    34, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    34, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    34, njj=3 is [ 1]:  2
+
+ Element number [    1]: 58 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   37 38 34 35
+ The version number for occurrence  1 of node    37, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    37, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    37, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    38, njj=1 is [ 1]:  6
+ The version number for occurrence  1 of node    38, njj=2 is [ 1]:  6
+ The version number for occurrence  1 of node    38, njj=3 is [ 1]:  6
+ The version number for occurrence  1 of node    34, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    34, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    34, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    35, njj=1 is [ 1]:  4
+ The version number for occurrence  1 of node    35, njj=2 is [ 1]:  4
+ The version number for occurrence  1 of node    35, njj=3 is [ 1]:  4
+
+ Element number [    1]: 59 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   31 32 35 36
+ The version number for occurrence  1 of node    31, njj=1 is [ 1]:  6
+ The version number for occurrence  1 of node    31, njj=2 is [ 1]:  6
+ The version number for occurrence  1 of node    31, njj=3 is [ 1]:  6
+ The version number for occurrence  1 of node    32, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    32, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    32, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    35, njj=1 is [ 1]:  3
+ The version number for occurrence  1 of node    35, njj=2 is [ 1]:  3
+ The version number for occurrence  1 of node    35, njj=3 is [ 1]:  3
+ The version number for occurrence  1 of node    36, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    36, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    36, njj=3 is [ 1]:  1
+
+ Element number [    1]: 60 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   32 33 36 33
+ The version number for occurrence  1 of node    32, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    32, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    32, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    33, njj=1 is [ 1]:  3
+ The version number for occurrence  1 of node    33, njj=2 is [ 1]:  3
+ The version number for occurrence  1 of node    33, njj=3 is [ 1]:  3
+ The version number for occurrence  1 of node    36, njj=1 is [ 1]:  1
+ The version number for occurrence  1 of node    36, njj=2 is [ 1]:  1
+ The version number for occurrence  1 of node    36, njj=3 is [ 1]:  1
+ The version number for occurrence  2 of node    33, njj=1 is [ 1]:  5
+ The version number for occurrence  2 of node    33, njj=2 is [ 1]:  5
+ The version number for occurrence  2 of node    33, njj=3 is [ 1]:  5
+
+ Element number [    1]: 61 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   38 39 35 36
+ The version number for occurrence  1 of node    38, njj=1 is [ 1]:  6
+ The version number for occurrence  1 of node    38, njj=2 is [ 1]:  6
+ The version number for occurrence  1 of node    38, njj=3 is [ 1]:  6
+ The version number for occurrence  1 of node    39, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    39, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    39, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    35, njj=1 is [ 1]:  4
+ The version number for occurrence  1 of node    35, njj=2 is [ 1]:  4
+ The version number for occurrence  1 of node    35, njj=3 is [ 1]:  4
+ The version number for occurrence  1 of node    36, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    36, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    36, njj=3 is [ 1]:  2
+
+ Element number [    1]: 62 
+ The number of geometric Xj-coordinates is [3]: 3
+ The basis function type for geometric variable 1 is [1]:  1
+ The basis function type for geometric variable 2 is [1]:  1
+ The basis function type for geometric variable 3 is [1]:  1
+ Enter the 4 global numbers for basis 1:   39 33 36 33
+ The version number for occurrence  1 of node    39, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    39, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    39, njj=3 is [ 1]:  2
+ The version number for occurrence  1 of node    33, njj=1 is [ 1]:  4
+ The version number for occurrence  1 of node    33, njj=2 is [ 1]:  4
+ The version number for occurrence  1 of node    33, njj=3 is [ 1]:  4
+ The version number for occurrence  1 of node    36, njj=1 is [ 1]:  2
+ The version number for occurrence  1 of node    36, njj=2 is [ 1]:  2
+ The version number for occurrence  1 of node    36, njj=3 is [ 1]:  2
+ The version number for occurrence  2 of node    33, njj=1 is [ 1]:  5
+ The version number for occurrence  2 of node    33, njj=2 is [ 1]:  5
+ The version number for occurrence  2 of node    33, njj=3 is [ 1]:  5
+
