@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1024</width>
-    <height>742</height>
+    <width>1134</width>
+    <height>879</height>
    </rect>
   </property>
   <property name="font">
@@ -71,6 +71,12 @@
          </item>
          <item row="2" column="0" colspan="2">
           <widget class="QPushButton" name="loadAirway_pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
            <property name="text">
             <string>Load</string>
            </property>
@@ -119,6 +125,12 @@
          </item>
          <item row="2" column="0" colspan="2">
           <widget class="QPushButton" name="loadSurface_pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
            <property name="text">
             <string>Load</string>
            </property>
@@ -130,7 +142,7 @@
       <item>
        <widget class="QGroupBox" name="groupBox_2">
         <property name="title">
-         <string>Parameters</string>
+         <string>Generating</string>
         </property>
         <layout class="QGridLayout" name="gridLayout">
          <item row="3" column="0" alignment="Qt::AlignRight">
@@ -332,6 +344,25 @@
            </property>
           </widget>
          </item>
+         <item row="8" column="0" colspan="2">
+          <widget class="QPushButton" name="generate_pushButton">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Generate</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>
@@ -351,7 +382,7 @@
       <item>
        <widget class="QGroupBox" name="groupBox">
         <property name="title">
-         <string>Output</string>
+         <string>Saving</string>
         </property>
         <property name="flat">
          <bool>false</bool>
@@ -390,13 +421,7 @@
           </widget>
          </item>
          <item row="2" column="0" colspan="2">
-          <widget class="QPushButton" name="generate_pushButton">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
+          <widget class="QPushButton" name="save_pushButton">
            <property name="minimumSize">
             <size>
              <width>0</width>
@@ -404,11 +429,30 @@
             </size>
            </property>
            <property name="text">
-            <string>Generate</string>
+            <string>Save</string>
            </property>
           </widget>
          </item>
         </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="info_pushButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>Info</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
        </widget>
       </item>
      </layout>

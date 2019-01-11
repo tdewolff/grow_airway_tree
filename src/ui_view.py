@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file './qt/view.ui'
+# Form implementation generated from reading ui file 'src/qt/view.ui'
 #
-# Created: Tue Jan  8 14:17:05 2019
+# Created: Fri Jan 11 14:17:32 2019
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -12,7 +12,7 @@ from PySide import QtCore, QtGui
 class Ui_View(object):
     def setupUi(self, View):
         View.setObjectName("View")
-        View.resize(1024, 742)
+        View.resize(1134, 879)
         font = QtGui.QFont()
         font.setPointSize(11)
         View.setFont(font)
@@ -48,6 +48,7 @@ class Ui_View(object):
         self.airwayIpnode_lineEdit.setObjectName("airwayIpnode_lineEdit")
         self.gridLayout_4.addWidget(self.airwayIpnode_lineEdit, 0, 0, 1, 1)
         self.loadAirway_pushButton = QtGui.QPushButton(self.groupBox_3)
+        self.loadAirway_pushButton.setMinimumSize(QtCore.QSize(0, 40))
         self.loadAirway_pushButton.setObjectName("loadAirway_pushButton")
         self.gridLayout_4.addWidget(self.loadAirway_pushButton, 2, 0, 1, 2)
         self.verticalLayout.addWidget(self.groupBox_3)
@@ -74,6 +75,7 @@ class Ui_View(object):
         self.surfaceIpelem_pushButton.setObjectName("surfaceIpelem_pushButton")
         self.gridLayout_5.addWidget(self.surfaceIpelem_pushButton, 1, 1, 1, 1)
         self.loadSurface_pushButton = QtGui.QPushButton(self.groupBox_4)
+        self.loadSurface_pushButton.setMinimumSize(QtCore.QSize(0, 40))
         self.loadSurface_pushButton.setObjectName("loadSurface_pushButton")
         self.gridLayout_5.addWidget(self.loadSurface_pushButton, 2, 0, 1, 2)
         self.verticalLayout.addWidget(self.groupBox_4)
@@ -166,6 +168,15 @@ class Ui_View(object):
         self.rotationLimit_doubleSpinBox.setProperty("value", 180.0)
         self.rotationLimit_doubleSpinBox.setObjectName("rotationLimit_doubleSpinBox")
         self.gridLayout.addWidget(self.rotationLimit_doubleSpinBox, 7, 1, 1, 1)
+        self.generate_pushButton = QtGui.QPushButton(self.groupBox_2)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.generate_pushButton.sizePolicy().hasHeightForWidth())
+        self.generate_pushButton.setSizePolicy(sizePolicy)
+        self.generate_pushButton.setMinimumSize(QtCore.QSize(0, 40))
+        self.generate_pushButton.setObjectName("generate_pushButton")
+        self.gridLayout.addWidget(self.generate_pushButton, 8, 0, 1, 2)
         self.verticalLayout.addWidget(self.groupBox_2)
         spacerItem = QtGui.QSpacerItem(20, 20, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
         self.verticalLayout.addItem(spacerItem)
@@ -192,16 +203,21 @@ class Ui_View(object):
         self.outputExelem_pushButton = QtGui.QPushButton(self.groupBox)
         self.outputExelem_pushButton.setObjectName("outputExelem_pushButton")
         self.gridLayout_2.addWidget(self.outputExelem_pushButton, 1, 1, 1, 1)
-        self.generate_pushButton = QtGui.QPushButton(self.groupBox)
-        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Preferred)
+        self.save_pushButton = QtGui.QPushButton(self.groupBox)
+        self.save_pushButton.setMinimumSize(QtCore.QSize(0, 40))
+        self.save_pushButton.setObjectName("save_pushButton")
+        self.gridLayout_2.addWidget(self.save_pushButton, 2, 0, 1, 2)
+        self.verticalLayout.addWidget(self.groupBox)
+        self.info_pushButton = QtGui.QPushButton(self.controlPanel_widget)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Fixed, QtGui.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.generate_pushButton.sizePolicy().hasHeightForWidth())
-        self.generate_pushButton.setSizePolicy(sizePolicy)
-        self.generate_pushButton.setMinimumSize(QtCore.QSize(0, 40))
-        self.generate_pushButton.setObjectName("generate_pushButton")
-        self.gridLayout_2.addWidget(self.generate_pushButton, 2, 0, 1, 2)
-        self.verticalLayout.addWidget(self.groupBox)
+        sizePolicy.setHeightForWidth(self.info_pushButton.sizePolicy().hasHeightForWidth())
+        self.info_pushButton.setSizePolicy(sizePolicy)
+        self.info_pushButton.setFocusPolicy(QtCore.Qt.NoFocus)
+        self.info_pushButton.setFlat(True)
+        self.info_pushButton.setObjectName("info_pushButton")
+        self.verticalLayout.addWidget(self.info_pushButton)
         self.horizontalLayout.addWidget(self.controlPanel_widget)
         self.sceneviewer_widget = SceneviewerWidget(View)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Preferred)
@@ -225,7 +241,7 @@ class Ui_View(object):
         self.surfaceIpnode_pushButton.setText(QtGui.QApplication.translate("View", ".ipnode", None, QtGui.QApplication.UnicodeUTF8))
         self.surfaceIpelem_pushButton.setText(QtGui.QApplication.translate("View", ".ipelem", None, QtGui.QApplication.UnicodeUTF8))
         self.loadSurface_pushButton.setText(QtGui.QApplication.translate("View", "Load", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox_2.setTitle(QtGui.QApplication.translate("View", "Parameters", None, QtGui.QApplication.UnicodeUTF8))
+        self.groupBox_2.setTitle(QtGui.QApplication.translate("View", "Generating", None, QtGui.QApplication.UnicodeUTF8))
         self.label_4.setText(QtGui.QApplication.translate("View", "Angle min:", None, QtGui.QApplication.UnicodeUTF8))
         self.label.setText(QtGui.QApplication.translate("View", "Grid size:", None, QtGui.QApplication.UnicodeUTF8))
         self.label_2.setText(QtGui.QApplication.translate("View", "Start node:", None, QtGui.QApplication.UnicodeUTF8))
@@ -234,10 +250,12 @@ class Ui_View(object):
         self.label_5.setText(QtGui.QApplication.translate("View", "Branch fraction:", None, QtGui.QApplication.UnicodeUTF8))
         self.label_6.setText(QtGui.QApplication.translate("View", "Length limit:", None, QtGui.QApplication.UnicodeUTF8))
         self.label_8.setText(QtGui.QApplication.translate("View", "Rotation limit:", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox.setTitle(QtGui.QApplication.translate("View", "Output", None, QtGui.QApplication.UnicodeUTF8))
+        self.generate_pushButton.setText(QtGui.QApplication.translate("View", "Generate", None, QtGui.QApplication.UnicodeUTF8))
+        self.groupBox.setTitle(QtGui.QApplication.translate("View", "Saving", None, QtGui.QApplication.UnicodeUTF8))
         self.outputExnode_pushButton.setText(QtGui.QApplication.translate("View", ".exnode", None, QtGui.QApplication.UnicodeUTF8))
         self.outputExelem_pushButton.setText(QtGui.QApplication.translate("View", ".exelem", None, QtGui.QApplication.UnicodeUTF8))
-        self.generate_pushButton.setText(QtGui.QApplication.translate("View", "Generate", None, QtGui.QApplication.UnicodeUTF8))
+        self.save_pushButton.setText(QtGui.QApplication.translate("View", "Save", None, QtGui.QApplication.UnicodeUTF8))
+        self.info_pushButton.setText(QtGui.QApplication.translate("View", "Info", None, QtGui.QApplication.UnicodeUTF8))
 
 from opencmiss.zincwidgets.sceneviewerwidget import SceneviewerWidget
 

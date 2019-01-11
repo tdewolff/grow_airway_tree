@@ -11,9 +11,11 @@ class View(QtGui.QWidget):
         self._surfaceFilenames = ['', '']
         self._outputFilenames = ['', '']
         self._path = '.'
+        self._info = ''
         self._airwayCallback = None
         self._surfaceCallback = None
         self._generateCallback = None
+        self._saveCallback = None
 
         self._ui = Ui_View()
         self._ui.setupUi(self)
@@ -21,6 +23,12 @@ class View(QtGui.QWidget):
         self._scene = scene
         self._ui.sceneviewer_widget.setContext(scene.getContext())
         self._makeConnections()
+
+    def setInfo(self, info):
+        self._info = info
+    
+    def _infoClicked(self):
+        QtGui.QMessageBox.information(self, 'Information', self._info)
 
     def airwayCallback(self, cb):
         self._airwayCallback = cb
@@ -31,9 +39,13 @@ class View(QtGui.QWidget):
     def generateCallback(self, cb):
         self._generateCallback = cb
 
+    def saveCallback(self, cb):
+        self._saveCallback = cb
+
     def _makeConnections(self):
         self._ui.sceneviewer_widget.graphicsInitialized.connect(self._graphicsUpdate)
         self._ui.generate_pushButton.clicked.connect(self._generateClicked)
+        self._ui.save_pushButton.clicked.connect(self._saveClicked)
         self._ui.airwayIpnode_pushButton.clicked.connect(self._airwayIpnodeClicked)
         self._ui.airwayIpelem_pushButton.clicked.connect(self._airwayIpelemClicked)
         self._ui.loadAirway_pushButton.clicked.connect(self._loadAirwayClicked)
@@ -42,6 +54,10 @@ class View(QtGui.QWidget):
         self._ui.loadSurface_pushButton.clicked.connect(self._loadSurfaceClicked)
         self._ui.outputExnode_pushButton.clicked.connect(self._outputExnodeClicked)
         self._ui.outputExelem_pushButton.clicked.connect(self._outputExelemClicked)
+
+        self._ui.info_pushButton.clicked.connect(self._infoClicked)
+        self._ui.info_pushButton.setIcon(QtGui.QIcon.fromTheme('dialog-information'))
+        self._ui.info_pushButton.setText('')
 
     def _graphicsUpdate(self):
         sceneviewer = self._ui.sceneviewer_widget.getSceneviewer()
@@ -75,7 +91,6 @@ class View(QtGui.QWidget):
     def _loadAirwayClicked(self):
         if self._airwayCallback and self._airwayFilenames[0] and self._airwayFilenames[1]:
             self._airwayCallback(self._airwayFilenames[0], self._airwayFilenames[1])
-            #self._graphicsUpdate()
 
     def setSurfaces(self, ipnode, ipelem):
         self._ui.surfaceIpnode_lineEdit.setText(os.path.relpath(ipnode, os.getcwd()))
@@ -101,7 +116,6 @@ class View(QtGui.QWidget):
     def _loadSurfaceClicked(self):
         if self._surfaceCallback and self._surfaceFilenames[0] and self._surfaceFilenames[1]:
             self._surfaceCallback(self._surfaceFilenames[0], self._surfaceFilenames[1])
-            #self._graphicsUpdate()
 
     def setOutputs(self, exnode, exelem):
         self._ui.outputExnode_lineEdit.setText(os.path.relpath(exnode, os.getcwd()))
@@ -137,6 +151,11 @@ class View(QtGui.QWidget):
 
         if self._generateCallback:
             QtGui.QApplication.setOverrideCursor(QtCore.Qt.WaitCursor)
-            self._generateCallback(self._airwayFilenames[0], self._airwayFilenames[1], self._surfaceFilenames[0], self._surfaceFilenames[1], options, self._outputFilenames[0], self._outputFilenames[1])
+            self._generateCallback(self._airwayFilenames[0], self._airwayFilenames[1], self._surfaceFilenames[0], self._surfaceFilenames[1], options)
             QtGui.QApplication.restoreOverrideCursor()
         
+    def _saveClicked(self):
+        if self._saveCallback:
+            QtGui.QApplication.setOverrideCursor(QtCore.Qt.WaitCursor)
+            self._saveCallback(self._outputFilenames[0], self._outputFilenames[1])
+            QtGui.QApplication.restoreOverrideCursor()
