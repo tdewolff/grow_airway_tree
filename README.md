@@ -3,6 +3,15 @@
     sudo apt-get install qtcreator python-pyqt5 pyqt5-dev-tools
     pip install PySide
 
+Also install [lungsim](https://github.com/LungNoodle/lungsim) as follows:
+
+    git clone https://github.com/LungNoodle/lungsim
+    mkdir lungsim-build
+    cd lungsim-build
+    cmake ../lungsim
+    make
+    pip install -e src/bindings/python
+
 # Run
 
     python run.py
