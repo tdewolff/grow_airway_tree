@@ -2,8 +2,13 @@
 
     sudo apt-get install qtcreator python-pyqt5 pyqt5-dev-tools
     pip install PySide
+ 
+Install [ZincPythonTools](https://github.com/OpenCMISS-Bindings/ZincPythonTools):
 
-Also install [lungsim](https://github.com/LungNoodle/lungsim) as follows:
+    git clone https://github.com/OpenCMISS-Bindings/ZincPythonTools
+    pip install ZincPythonTools
+
+Install [lungsim](https://github.com/LungNoodle/lungsim):
 
     git clone https://github.com/LungNoodle/lungsim
     mkdir lungsim-build
