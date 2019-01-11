@@ -147,6 +147,7 @@ class View(QtGui.QWidget):
             "lengthLimit": self._ui.lengthLimit_doubleSpinBox.value(),
             "shortestLength": self._ui.shortestLength_doubleSpinBox.value(),
             "rotationLimit": self._ui.rotationLimit_doubleSpinBox.value(),
+            "reset": self._ui.reset_checkBox.isChecked(),
         }
 
         if self._generateCallback:

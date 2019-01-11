@@ -37,19 +37,23 @@ def loadSurface(ipnode, ipelem):
     surfaceModel.load(node+'.exnode', elem+'.exelem')
 
 def generate(airwayIpnode, airwayIpelem, surfaceIpnode, surfaceIpelem, options):
-    #define_node_geometry(airwayIpnode)
-    #define_1d_elements(airwayIpelem)
+    if not airwayIpnode or not airwayIpelem or not surfaceIpnode or not surfaceIpelem:
+        print('Error: airway tree or surface mesh not loaded')
+        return
 
-    #define_node_geometry_2d(surfaceIpnode)
-    #define_elem_geometry_2d(surfaceIpelem, 'unit')
+    if options["reset"]:
+        define_node_geometry(airwayIpnode)
+        define_1d_elements(airwayIpelem)
+        define_node_geometry_2d(surfaceIpnode)
+        define_elem_geometry_2d(surfaceIpelem, 'unit')
 
     make_data_grid(0, options["gridSize"], False, 'test', 'test')
     evaluate_ordering()
     group_elem_parent_term(options["startNode"])
     grow_tree(options["startNode"], 1, options["angleMax"], options["angleMin"], options["branchFraction"], options["lengthLimit"], options["shortestLength"], options["rotationLimit"])
 
-    export_node_geometry('.tmp', 'out')
-    export_1d_elem_geometry('.tmp', 'out')
+    export_node_geometry('.tmp.exnode', 'out')
+    export_1d_elem_geometry('.tmp.exelem', 'out')
     
     airwayModel.load('.tmp.exnode', '.tmp.exelem')
 
@@ -85,6 +89,7 @@ view.setInfo("""
 <li><b>Length limit:</b> minimum length of a generated branch</li>
 <li><b>Shortest length:</b> length that short branches are reset to (shortest in model)</li>
 <li><b>Rotation limit:</b> maximum angle of rotatin of branching plane</li>
+<li><b>Reset airway tree:</b> remove previously generated branches and start with the loaded airway template</li>
 </ul>
 <p><b style="color:red">Warning:</b> make sure to select the largest surface mesh first to avoid the Fortran code from crashing.</p>
 <p>When the airway tree is complete you can export the data by clicking Save after selecting the output file names (.exnode and .exelem).</p>

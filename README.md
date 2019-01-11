@@ -16,6 +16,8 @@ Also install [lungsim](https://github.com/LungNoodle/lungsim) as follows:
 
     python run.py
 
+![Preview](https://raw.githubusercontent.com/tdewolff/grow_airway_tree/master/preview.jpg)
+
 # Guide
 
 Start QtCreator and open `src/qt/view.ui`. This is the file that defines the GUI and can be edited through QtCreator. You can add and move around widgets, but remember the `objectName` (right-click on widget -> Change objectName) as that is how the widget is referenced in the code. When done, save and run the following command to generate the Python files in `src/ui_*.py`.

@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'src/qt/view.ui'
 #
-# Created: Fri Jan 11 14:17:32 2019
+# Created: Fri Jan 11 14:49:55 2019
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -12,7 +12,7 @@ from PySide import QtCore, QtGui
 class Ui_View(object):
     def setupUi(self, View):
         View.setObjectName("View")
-        View.resize(1134, 879)
+        View.resize(1154, 899)
         font = QtGui.QFont()
         font.setPointSize(11)
         View.setFont(font)
@@ -176,7 +176,10 @@ class Ui_View(object):
         self.generate_pushButton.setSizePolicy(sizePolicy)
         self.generate_pushButton.setMinimumSize(QtCore.QSize(0, 40))
         self.generate_pushButton.setObjectName("generate_pushButton")
-        self.gridLayout.addWidget(self.generate_pushButton, 8, 0, 1, 2)
+        self.gridLayout.addWidget(self.generate_pushButton, 9, 0, 1, 2)
+        self.reset_checkBox = QtGui.QCheckBox(self.groupBox_2)
+        self.reset_checkBox.setObjectName("reset_checkBox")
+        self.gridLayout.addWidget(self.reset_checkBox, 8, 0, 1, 2)
         self.verticalLayout.addWidget(self.groupBox_2)
         spacerItem = QtGui.QSpacerItem(20, 20, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
         self.verticalLayout.addItem(spacerItem)
@@ -251,6 +254,7 @@ class Ui_View(object):
         self.label_6.setText(QtGui.QApplication.translate("View", "Length limit:", None, QtGui.QApplication.UnicodeUTF8))
         self.label_8.setText(QtGui.QApplication.translate("View", "Rotation limit:", None, QtGui.QApplication.UnicodeUTF8))
         self.generate_pushButton.setText(QtGui.QApplication.translate("View", "Generate", None, QtGui.QApplication.UnicodeUTF8))
+        self.reset_checkBox.setText(QtGui.QApplication.translate("View", "Reset airway tree", None, QtGui.QApplication.UnicodeUTF8))
         self.groupBox.setTitle(QtGui.QApplication.translate("View", "Saving", None, QtGui.QApplication.UnicodeUTF8))
         self.outputExnode_pushButton.setText(QtGui.QApplication.translate("View", ".exnode", None, QtGui.QApplication.UnicodeUTF8))
         self.outputExelem_pushButton.setText(QtGui.QApplication.translate("View", ".exelem", None, QtGui.QApplication.UnicodeUTF8))
